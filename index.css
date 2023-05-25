@@ -41,6 +41,11 @@ body{
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
     color: var(--navfontCol);
 }
+span.swiper-pagination-bullet{
+   background: var(--navfontCol);
+    height: 1rem;
+    width: 1rem;
+}
 
 .swiper .swiper-pagination-bullet-active{
     background: white;
