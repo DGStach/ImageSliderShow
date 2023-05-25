@@ -27,6 +27,12 @@ body{
     width: 80%;
     height: fit-content;
 }
+@media(max-width: 768px){
+    .swiper{
+        width: 100%;
+        height: fit-content;
+    }
+}
 
 .swiper-slide img{
     width: 100%;
@@ -39,3 +45,5 @@ body{
 .swiper .swiper-pagination-bullet-active{
     background: white;
 }
+
+
